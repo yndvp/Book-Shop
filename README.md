@@ -12,7 +12,7 @@ Book store management application that has create/read/update/delete functionali
 ## Features
 - **Adding book data**
   1. Fill in the text fields
-  2. Press 'Save' button
+  2. Press **'Save'** button
 ![](images/bookshop-save.png)
 
 - **Searching book data**
@@ -24,19 +24,19 @@ Book store management application that has create/read/update/delete functionali
   1. Enter the Book ID in the search box
   2. Then the book information is automatically field
   3. Now the user can change the inputs
-  4. Press 'Update' button
+  4. Press **'Update'** button
 ![](images/bookshop-update.png)
 ![](images/bookshop-updateResult.png)
 
 - **Deleting book data**
   1. Enter the Book ID in the search box
   2. Then the book information is automatically field
-  3. Press 'Delete' button
+  3. Press **'Delete'** button
 ![](images/bookshop-delete.png)
 ![](images/bookshop-deleteResult.png)
 
 - **Clearing text fields**
-  - With 'Clear' button, the user can clear the entered inputs in the text fields.
+  - With **'Clear'** button, the user can clear the entered inputs in the text fields.
 
 - **Exit**
-  - With 'Exit' button, the user can execute the program
+  - With **'Exit'** button, the user can execute the program
