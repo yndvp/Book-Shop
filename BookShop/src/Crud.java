@@ -66,16 +66,16 @@ public class Crud {
 			con = DriverManager.getConnection("jdbc:mysql://localhost/bookshop", "root", "");
 		}
 		catch(ClassNotFoundException ex) {
-			
+			ex.printStackTrace();
 		}
 		catch(SQLException ex) {
-			
+			ex.printStackTrace();
 		}
 	}
 	
 	public void table_load() {
 		try {
-			pst = con.prepareStatement("Select * from the book");
+			pst = con.prepareStatement("Select * from books");
 			rs = pst.executeQuery();
 			table.setModel(DbUtils.resultSetToTableModel(rs));
 		} catch(SQLException e) {
