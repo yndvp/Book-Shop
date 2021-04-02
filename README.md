@@ -39,4 +39,4 @@ Book store management application that has create/read/update/delete functionali
   - With **'Clear'** button, the user can clear the entered inputs in the text fields.
 
 - **Exit**
-  - With **'Exit'** button, the user can execute the program
+  - With **'Exit'** button, the user can exit the program
